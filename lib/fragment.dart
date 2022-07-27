@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:share_plus/share_plus.dart';
-import 'package:webview/fifthpage.dart';
+
 import 'package:webview/firstpage.dart';
 import 'package:webview/fourpage.dart';
 import 'package:webview/secondepage.dart';
@@ -30,7 +30,7 @@ class _fragmentState extends State<fragment> with SingleTickerProviderStateMixin
 
     //super.initState();
 
-    _controller=TabController(length: 5, vsync:this, initialIndex:0);
+    _controller=TabController(length: 4, vsync:this, initialIndex:0);
     //if (Platform.isAndroid) WebView.platform = AndroidWebView();
   }
    Future<bool>_onBackPresses()async{
@@ -252,9 +252,7 @@ color: Colors.red,
                       Tab(
                         text: "Shopping.com",
                       ),
-                      Tab(
-                        text: "shopStyle",
-                      ),
+
 
 
                     ],
@@ -274,7 +272,7 @@ color: Colors.red,
                       secondepage(),
                       thirdpage(),
                       fourpage(),
-                      fifthpage(),
+
 
                     ],
                   ),

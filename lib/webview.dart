@@ -102,10 +102,7 @@ bottom: TabBar(
     Tab(
       text: "Shopping.com",
     ),
-    Tab(
-      text: "shopStyle",
-    ),
-  ],
+ ],
 ),
 
         ),
@@ -119,7 +116,7 @@ bottom: TabBar(
           Text("eBay"),
           Text("Draz"),
           Text("ShopStyle"),
-          Text("Shooping.com"),
+
         ],
       ),
 
